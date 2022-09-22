@@ -1,0 +1,41 @@
+.weather-card{
+    overflow: hidden;
+    box-shadow: 0px 0px 20px -5px;
+    margin: 15px 0 0 0;
+    border-radius: 20px;
+    max-width: 285px;
+    max-height: 430px;
+}
+
+.daytime-img img{
+    overflow: hidden;
+    max-height: 180px;
+}
+
+.weather-icon {
+    position: relative;
+    top: -32px;
+    margin: 0px auto -32px;
+}
+
+.weather-icon img{
+    border-radius: 50%;
+}
+
+.localization{
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.country{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.description{
+    margin: 20px 0px;
+}
+
+.temperature{
+    margin-bottom: 10px;
+}

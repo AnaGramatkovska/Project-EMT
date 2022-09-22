@@ -1,0 +1,115 @@
+.home{
+    text-align: center;
+}
+
+.center{
+    margin: 0 auto;
+}
+
+.get-weather{
+    max-width: 290px;
+}
+
+.home input {
+    width: 100%;
+    padding: 8px 3px;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+.home input:focus{
+    outline: none;
+}
+
+.search-bar{
+    width: 285px;
+    margin-bottom: 10px;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.flex-container .locations-title{
+    height: 86px;
+    margin-left: 80px;
+}
+
+.flex-container .locations-title h2{
+    padding-top: 20px;
+}
+
+.flex-container button{
+    width: 285px;
+    margin-top: 20px;
+    background: #00f77b;
+}
+
+.locations-section{
+    width: 100%;
+}
+
+.locations-cards{
+    margin-left: 80px;
+    justify-content: space-around;
+}
+
+.locations-cards button{
+    background: lightcoral;
+}
+
+.locations-cards button:hover{
+    background: red;
+}
+
+.flex-container .message{
+    margin: auto auto;
+}
+
+.button-loading{
+    margin-top: 30px;
+}
+
+/* responsive styles */
+@media screen and (max-width: 1260px) {
+    .flex-container .locations-cards{
+        display: block;
+    }
+
+    .location-card{
+        margin-bottom: 20px;
+    }
+
+    .location-card .weather-card{
+        margin: 0 auto;
+    }
+
+    .get-weather{
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .flex-container{
+        display: block;
+    }
+
+    .get-weather{
+        margin: 0 auto;
+    }
+
+    .locations-cards{
+        margin-left: 0px;
+    }
+
+    .flex-container .locations-title{
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+
